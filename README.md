@@ -7,6 +7,17 @@ Missed medical appointments (no-shows) lead to wasted resources, longer patient 
 In this project, I used SQL as the primary tool to clean, transform, and analyze the Medical Appointment No-Show dataset.
 The goal was to ingest, clean, and prepare a real-world healthcare dataset using MySQL, producing an analysis-ready dataset and uncover early insights that could help healthcare providers reduce no-show rates.
 
+### Dashboard Preview
+
+<img width="1057" height="761" alt="Medical Appointments N0-show Dashboard" src="https://github.com/user-attachments/assets/b01bf563-c87b-480b-9dc5-e8fdb2bc9357" />
+
+### Key Insights:
+
+- Lead Time Impact: longer waiying days are strongly associated with higher no-show rates.
+- Communication Effectiveness: SMS reminders significantly reduce missed appointments.
+- Geographic Trends: Certain Neighbourhood consistently record higher no-shows.
+
+
 ### Dataset Overview
 The dataset contains patient appointment records, including:
 
@@ -63,7 +74,20 @@ A fully typed table (medical_appointments) was created with:
 - Primary key on appointment_id
 
 ### Export for Visualization
-The cleaned dataset was exported and loaded into Power BI for dashboard development.
+- Exported the cleaned 'medical_appointments' table for analysis
+- Developed an interactive dashboard to track no-shows KPIs across demographics.
+
+### Project Resources
+To maintain transparency and reproducibility, links to all project assets are listed below
+
+[Original Dataset](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
+
+[SQL Transformation Script](https://github.com/Lebechi550/medical_appointments/blob/main/data_cleaning.sql)
+
+[Leaned Dataset](https://github.com/Lebechi550/medical_appointments/blob/main/dataset/medical_appointments_cleaned.csv)
+
+[Power BI Dashboard](https://drive.google.com/file/d/1Za_AHNaVewGS5qK2mPC8F7FDyiK2N9um/view?usp=sharing)
+
 
 ### Key Learnings:
 - To safely ingest high-volume, bulk data, use LOAD DATA INFILE
@@ -71,12 +95,12 @@ The cleaned dataset was exported and loaded into Power BI for dashboard developm
 - Flagging issues is often better than deleting records
 - SQL is powerful for preprocessing before visualization
 
-### Next Steps
+### Next Steps/Future Enhancement
 
--  Build an interactive Power BI dashboard
+- Automation: Moving from manual CSV exports to a direct SQL-to-Power BI connection
 - Explore additional healhcare dataset
 
 ### Tools Used
-- MySQL
-- Power BI
-- Excel (Initial inspection).
+- MySQL (Primary Cleaning & Transformation
+- Power BI (Visualization & Dashboard)
+- Excel (Initial Data inspection).
