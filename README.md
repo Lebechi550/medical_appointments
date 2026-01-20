@@ -9,7 +9,11 @@ The goal was to ingest, clean, and prepare a real-world healthcare dataset using
 
 ### Dashboard Preview
 
-<img width="1057" height="761" alt="Medical Appointments N0-show Dashboard" src="https://github.com/user-attachments/assets/b01bf563-c87b-480b-9dc5-e8fdb2bc9357" />
+-<img width="1044" height="815" alt="Medical Appointments No-show Dashboard" src="https://github.com/user-attachments/assets/b411bb0c-527b-4654-8063-10c80ae90034" />
+
+
+
+
 
 ### Key Insights:
 
@@ -75,6 +79,7 @@ A fully typed table (medical_appointments) was created with:
 
 ### Export for Visualization
 - Exported the cleaned 'medical_appointments' table for analysis
+- Created a new patient_id_search calculated column to enable granular filtering and history tracking. 
 - Developed an interactive dashboard to track no-shows KPIs across demographics.
 
 ### Project Resources
