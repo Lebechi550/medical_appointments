@@ -89,7 +89,7 @@ To maintain transparency and reproducibility, links to all project assets are li
 
 [SQL Transformation Script](https://github.com/Lebechi550/medical_appointments/blob/main/data_cleaning.sql)
 
-[Leaned Dataset](https://github.com/Lebechi550/medical_appointments/blob/main/dataset/medical_appointments_cleaned.csv)
+[Cleaned Dataset](https://github.com/Lebechi550/medical_appointments/blob/main/dataset/medical_appointments_cleaned.csv)
 
 [Power BI Dashboard](https://drive.google.com/file/d/1Za_AHNaVewGS5qK2mPC8F7FDyiK2N9um/view?usp=sharing)
 
